@@ -1,0 +1,11 @@
+warning: in the working copy of 'vercel.json', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/vercel.json b/vercel.json[m
+[1mindex beb59e8..a1947ef 100644[m
+[1m--- a/vercel.json[m
+[1m+++ b/vercel.json[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-﻿{[m
+[32m+[m[32m{[m
+   "version": 2,[m
+   "functions": {[m
+     "api/gfg.js": {[m
