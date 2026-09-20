@@ -1,0 +1,19 @@
+{
+  "name": "gfg-api-serverless",
+  "version": "1.0.0",
+  "description": "GFG public profile relay for CPPro — scrapes __NEXT_DATA__ with Cheerio fallback",
+  "main": "api/gfg.js",
+  "scripts": {
+    "start": "node dev-server.js",
+    "dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^18.0.1",
+    "mongodb": "^7.6.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
