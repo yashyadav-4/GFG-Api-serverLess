@@ -1,5 +1,7 @@
+//test file for local development
+
 require('dotenv').config();
-process.env.RELAY_SECRET = process.env.RELAY_SECRET || 'LEMONJI';
+process.env.RELAY_SECRET = process.env.RELAY_SECRET;
 const PORT = process.env.PORT || 6001;
 
 const http = require('http');

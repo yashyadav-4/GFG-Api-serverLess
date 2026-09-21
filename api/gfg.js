@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { logErrorToAdmin } = require('./logger');
 
-const RELAY_SECRET = process.env.RELAY_SECRET || 'LEMONJI';
+const RELAY_SECRET = process.env.RELAY_SECRET;
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
